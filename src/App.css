@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+div {
+    font-family: 'Carter One', cursive;
+}
+
+#head {
+    color: whitesmoke;
+}
+
+nav {
+    margin-left: 40%;
+    margin-right: auto;
+    display: flex;
+}
+
+#a {
+    text-decoration: none;
+    font-size: 30px;
+}
+#a:link, a:visited {
+    color: whitesmoke;
+}
+#a:hover {
+    color: teal;
+}
+
+Link {
+    color: whitesmoke;
+}
+
+Link:active {
+    color: whitesmoke;
+}
+
+Link:visited {
+    color: whitesmoke;
+}
+
+Link:link {
+    color: whitesmoke;
+}
+
+.headlink {
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.headlink:link, .headlink:visited {
+    color: whitesmoke;
+}
+
+#cart {
+    margin-top: 20px;
+    display: flex;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#home {
+    margin-right: 80%;
+    display: flex;
+    font-size: 30px;
+}
+
+#alt-head {
+    text-align: center;
+    color: turquoise;
+    font-size: 80px;
+}
+
+#nav-bar {
+    background-color:turquoise ;
+    text-align: center;
+    display: flex;
+}
+
+#ro {
+    text-align: center;
+    object-position: center;
+}
+
+#row {
+    display: flex;
+    object-position: center;
+    text-align: center;
+}
+
+#minu {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#adu {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#shop {
+    background-image: "canvas.jpg";
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+    height: auto;
+    background-image: url('canvas.jpg');
+}
+
+#image {
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.item {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: white;
+    padding: 5px;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    height: 650px;
+}
+
+button {
+    border-style: solid;
+    border-color: turquoise;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(250, 250, 250);
+}
+
+button:hover {
+    background-color: turquoise;
+}
+
+#mid {
+    margin-left: 40px;
+}
+
+#add-cart {
+    margin-top: 20px;
+}
